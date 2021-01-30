@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+li{
+    display: inline;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 44px;
+    color: #242f51;
+    font-weight: 400;
+    list-style-type: none;
+}
+button{
+    width: 170px;
+    height: 57px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 29px;
+    background-color: #2500f9;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3b25b8;
+}
+header{
+    margin: 50px;
+}
+h1{
+    font-size: 60px;
+    line-height: 75px;
+    color: #242f51;
+    font-weight: 600;
+    padding-top: 20px;
+}
+h3{
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+    font-weight: 600;
+}
+h4{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #616368;
+    font-weight: 400;
+}
+.logo{
+    flex:1;
+}
+.nav-text{
+    padding-left: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.editors-choice-section{
+    align-items: center;
+    margin: 100px auto auto;
+    width: 70vw;
+}
+.editors-choice-section > .column {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.editors-choice-section > .column > div >a {
+    color: #2500f9;
+    padding-left: 10px;
+}
+.text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.buttons{
+    padding-top: 10px;
+}
+.editors-choice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    width: 362px;
+    border-radius: 17px;
+    background-color: #e2eaed;
+}
+.trusted-companies{
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.column > h4 {
+    color: #242f51;
+    font-weight: 400;
+    margin: 30px;
+}
+.logos{
+    width: 55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature-section{
+    justify-content: center;
+    margin: 100px auto 200px;
+
+    width: 70vw;
+}
+.apps-features{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.feature-intro{
+margin-bottom:70px;
+
+}
+.feature img{
+margin-right: 50px;
+}
+
+.jackpots-section{
+    width: 70vw;
+    margin: 100px auto 200px;
+    align-items: center;
+}
+.jackpots{
+    height: 100px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.jackpots-text{
+    padding-top: 40px;
+    padding-bottom: 25px;
+     padding-left: 50px;
+    border-left: 1px solid lightgrey;
+    height: 100%;
+}
+.jackpots-content{
+
+}
+.jackpots-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.code-section{
+    width: 60vw;
+    margin: 100px auto 200px;
+    align-items: center;
+}
+
+.code-section-content{
+    margin-left: 100px;
+    min-width: 200px;
+    width: 20vw;
+}
+.code-section-content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.choose-section{
+    width: 60vw;
+    margin: 100px auto 200px;
+    align-items: center;
+}
+.choose-section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    text-align: center;
+}
+.choose-section-header h3 {
+max-width: 500px;
+}
+
+.choose-section-header p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.choose-section-content div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    max-width: 300px;
+}
+
+.ultimate-features-section{
+    width: 60vw;
+    margin: 100px auto 200px;
+
+}
+.ultimate-features-intro{
+    max-width: 500px;
+    margin-left: 50px
+}
+.ultimate-features-intro p{
+    margin-top: 20px;
+
+}
+.ultimate-features-content {
+    align-items: center;
+}
+.ultimate-features-content div div {
+    margin: 50px;
+}
+.see-all-button{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.red-text{
+    color: #f55767;
+}
+.blue-text{
+    color: #2563ff;
+}
+.green-text{
+    color: #40975f;
+}
