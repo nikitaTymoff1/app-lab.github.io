@@ -339,7 +339,7 @@ max-width: 500px;
         width: 90px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .menu{
         display: none;
     }
