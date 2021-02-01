@@ -3,34 +3,48 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 body{
+    border: 1px solid #242f51;
+}
 
+.phone-menu{
+    display: none;
+}
+.mobile-logos{
+    display: none;
 }
 section{
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    margin: 100px auto auto;
+    width: 70vw;
+    justify-content: center;
+}
+section img {
+    max-width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
 }
 ul{
+    margin:auto;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 200px;
-    padding-left: 200px;
 }
 li{
-    display: inline;
-    padding-left: 40px;
+    list-style-type: none;
+    padding-left: 30px;
 }
 a{
     text-decoration: none;
-    font-size: 16px;
-    line-height: 44px;
     color: #242f51;
-    font-weight: 400;
-    list-style-type: none;
 }
 button{
     width: 170px;
@@ -91,11 +105,6 @@ p{
     display: flex;
     flex-direction: column;
 }
-.editors-choice-section{
-    align-items: center;
-    margin: 100px auto auto;
-    width: 70vw;
-}
 .editors-choice-section > .column {
     margin-left: 80px;
     margin-right: 80px;
@@ -137,12 +146,6 @@ p{
     justify-content: space-evenly;
     align-items: center;
 }
-.feature-section{
-    justify-content: center;
-    margin: 100px auto 200px;
-
-    width: 70vw;
-}
 .apps-features{
     margin-left: 50px;
     margin-top: 30px;
@@ -164,14 +167,8 @@ margin-bottom:70px;
 margin-right: 50px;
 }
 
-.jackpots-section{
-    width: 70vw;
-    margin: 100px auto 200px;
-    align-items: center;
-}
 .jackpots{
     height: 100px;
-    width: 50vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -184,23 +181,14 @@ margin-right: 50px;
     border-left: 1px solid lightgrey;
     height: 100%;
 }
-.jackpots-content{
-
-}
 .jackpots-content div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 300px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.code-section{
-    width: 60vw;
-    margin: 100px auto 200px;
-    align-items: center;
-}
 
 .code-section-content{
     margin-left: 100px;
@@ -210,11 +198,6 @@ margin-right: 50px;
 .code-section-content p{
     margin-top: 30px;
     margin-bottom: 30px;
-}
-.choose-section{
-    width: 60vw;
-    margin: 100px auto 200px;
-    align-items: center;
 }
 .choose-section-header{
     display: flex;
@@ -242,9 +225,8 @@ max-width: 500px;
 }
 
 .ultimate-features-section{
-    width: 60vw;
-    margin: 100px auto 200px;
-
+    align-items: flex-start;
+    margin-bottom: 500px;
 }
 .ultimate-features-intro{
     max-width: 500px;
@@ -262,7 +244,6 @@ max-width: 500px;
 }
 .see-all-button{
     margin-left: 50px;
-    margin-top: -50px;
 }
 .red-text{
     color: #f55767;
@@ -272,4 +253,212 @@ max-width: 500px;
 }
 .green-text{
     color: #40975f;
+}
+
+@media screen and (max-width: 1024px) {
+
+    section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 100px auto auto;
+        width: 90vw;
+        justify-content: center;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 29px;
+        background-color: #2500f9;
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    header{
+        margin: 50px;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+        color: #242f51;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 50px;
+        color: #242f51;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 16px;
+        line-height: 58px;
+        color: #242f51;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        line-height: 28px;
+        color: #616368;
+        font-weight: 400;
+    }
+    .trusted-companies img{
+        padding: 30px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 30px;
+        line-height:40px;
+        color: #242f51;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 40px;
+        color: #242f51;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 16px;
+        line-height: 30px;
+        color: #242f51;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #616368;
+        font-weight: 400;
+    }
+    .trusted-companies img{
+        padding: 30px;
+        width: 90px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .menu{
+        display: none;
+    }
+    .logos{
+        display: none;
+    }
+    header{
+        background-color: #455a9c;
+        margin: 0;
+        border-radius: 0 0 15px 15px;
+    }
+    .phone-menu{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .phone-menu div{
+        margin: auto;
+    }
+    .phone-menu a{
+        color: white;
+        padding-left: 10px;
+        margin: 8px;
+    }
+    .phone-menu div img{
+        padding-top: 10px;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 100px auto auto;
+        width: 90vw;
+        justify-content: center;
+    }
+    .editors-choice-section{
+        margin: 50px auto;
+    }
+    .editors-choice{
+        width: 300px;
+    }
+    .screenshot{ display: none}
+    .mobile-logos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jackpots{
+        width: 70vw;
+        align-items: center;
+        flex-direction: column;
+    }
+    .jackpots h3{
+        padding-bottom: 10px;
+    }
+    .jackpots p {
+        border-left: none;
+        border-top: 1px solid lightgrey ;
+        padding: 20px 0 0;
+    }
+    .jackpots-content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .jackpots-content div{
+        padding-top: 30px;
+    }
+    .code-section-content{
+        margin: 0;
+    }
+    .choose-section-header{
+        width: 90vw;
+    }
+    .choose-section-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .ultimate-features-intro{
+        margin: 0 0 0 10px;
+    }
+    .ultimate-features-content{
+        flex-direction: column;
+    }
+    .ux-planning{
+        margin-top: 0;
+    }
+
+    h1{
+        font-size: 20px;
+        line-height: 30px;
+        color: #242f51;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 30px;
+        color: #242f51;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 16px;
+        line-height: 30px;
+        color: #242f51;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #616368;
+        font-weight: 400;
+    }
+    .trusted-companies img{
+        padding: 10px;
+        width: 80px;
+    }
 }
